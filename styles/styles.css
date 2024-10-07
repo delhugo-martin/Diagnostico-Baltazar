@@ -1,0 +1,48 @@
+/*COLORES
+azul: #004AAD
+*/
+html,body { margin: 0; padding: 0; border: 0; vertical-align: baseline; background-color: black; }
+div{margin: 0; padding: 0;}
+h1,h2,h3,h4,p{ text-align: center; }
+
+/* - - NAV - - */
+nav{ display: flex; flex-direction: row; align-items: center; justify-content: space-between;
+    padding: .5rem .5rem;}
+.img-logo img{ width: 2.5rem; height: 2.5rem; margin: 0rem;}
+
+nav div ul {display: flex; flex-direction: row; justify-content: end; align-items: end;}
+nav div ul li{ color: white; margin: 0rem .5rem; text-decoration: none; list-style: none; }
+
+/* - - HERO IMG - - */
+.hero{ height: 8rem; background-color: white; 
+    display: flex; flex-direction: column; justify-content: center; align-items: center; }
+    
+.hero-img-logo{ height: 6rem; }
+    
+/* - - LA COMODIDAD - - */
+.comod{background-image: url(/assets/images/motor.jpg);  background-size:cover}
+.comod-hero{background-color: #000000d8; height: 22rem; background-size: cover;
+    display: flex; flex-direction: column; justify-content: space-evenly; padding: 2rem 0rem;}
+
+.comod-hero div {margin: 0rem 3rem;}
+.comod-hero :nth-child(1) p{ text-align: start; font-size:1.3rem;}
+.comod-hero :nth-child(2) p{ text-align: end; font-size: 1.3rem;}
+.comod-hero :nth-child(3) p{ text-align: center; border: 1px solid white; padding: 1rem 2rem; font-size: 2rem;}
+
+
+
+
+
+
+
+
+
+/* - - DESCRIPCION - - */
+.descripciones{ background-color: black; }
+
+.desc-1 h2,p{ color:white }
+
+
+/* - - FOOTER - - */
+.footer{ background-color: #004AAD; height: 10rem;  }
+
