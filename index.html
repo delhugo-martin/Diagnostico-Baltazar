@@ -14,8 +14,11 @@
         <div class="img-logo"> <img src="/assets/images/IMG-LOGO.png" alt="logo"></div>
         <div>
             <ul>
-                <li>Sobre nosotros</li>
-                <li>Contacto</li>
+                <a href="#sobre_nosotros"><li>Sobre nosotros</li></a>
+                
+                <a href="#contacto"><li>Contacto</li></a>
+                
+
             </ul>
         </div>
     </nav>
@@ -25,12 +28,13 @@
             <img src="/assets/images/LARGE-LOGO-TRANSPARENT.png" alt="logo-presentacion" class="hero-img-logo">
     </section>
 
-<!-- LA COMODIDAD -->
 
+<section class="suma"> <!-- ============= suma    -->
+<!-- LA COMODIDAD -->
 <section class="comod">
     <div class="comod-hero">
 
-        <div> <p>La comodidad de llevar</p> </div>
+        <div> <p>La comodidad de llevar</p></div>
         <div><p>el taller a tu</p></div>
         <div> <div><p>CASA</p></div></div>
     
@@ -41,9 +45,9 @@
 <section class="things">
 
     <div class="things_imp"></div>
-    <div>  </div>
+    <div class="things_par"></div>
     <div class="things_imp"></div>
-    <div>  </div>
+    <div class="things_par"></div>
     <div class="things_imp"></div>
 
     <div class="things_cont">
@@ -56,9 +60,11 @@
     </div>
 </section>
 
-<!-- TARJETAS -->
 
-<section class="contacto" >
+</section> <!-- ============= suma end   -->
+<!-- CONTACTO -->
+
+<section class="contacto" id="contacto">
     <img src="./assets/images/wp.png" alt="">
     <div>
         <h3>Contactanos</h3>
@@ -67,7 +73,7 @@
 </section>
 
 <!-- SOBRE NOSOTROS -->
-<section class="sobre" >
+<section class="sobre" id="sobre_nosotros" >
     <div class="sobre_card" >
         <h3>Experiencia</h3>
         <p>Con más de 10 años de experiencia en el rubro, contamos con los conocimientos necesarios para resolver cualquier problema en tu vehículo</p>
@@ -77,10 +83,11 @@
         <p>Con nuestro servicio de mecánica a domicilio, la comodidad es nuestra prioridad. Olvídate de las largas esperas y disfruta de la tranquilidad de tener tu vehículo reparado en la comodidad de tu hogar.</p>
 
     </div>
-    <div class="sobre_card">
+    <div class="sobre_card last_card">
         <h3>Diagnóstico</h3>
         <p>Realizaremos un diagnóstico preciso y te brindará una solución rápida y efectiva. Utilizamos equipos para identificar la causa del problema y te presentaremos un presupuesto detallado antes de iniciar cualquier reparación.</p>
     </div>
+
 
 
 </section>
@@ -92,13 +99,16 @@
             <img src="./assets/images/LARGE-LOGO-TRANSPARENT-WHITE.png" alt="">
         </div>
         <div>
-            <h4>Contacto</h4>
-            <h4>Sobre nosotros</h4>
-        </div>
+            <a href="#sobre_nosotros"><li>Sobre nosotros</li></a>
+                
+            <a href="#contacto"><li>Contacto</li></a>
 
     </footer>
 
-<!-- SCRIPTS  -->
+<!-- SCRIPTS  
+el about debe ser una mezcla de hrds y soft skills 
+
+-->
     <script src="/scripts/script.js"></script>
 </body>
 </html>
