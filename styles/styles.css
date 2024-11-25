@@ -1,6 +1,9 @@
 /*COLORES
 azul: #004AAD
 */
+
+
+
 html,
 body {
   margin: 0;
@@ -8,12 +11,15 @@ body {
   border: 0;
   vertical-align: baseline;
   background-color: white;
+
+
 }
-html a{
+
+html a {
   list-style: none;
   text-decoration: none;
 }
-nav{
+nav {
   background-color: #000;
 }
 div {
@@ -104,7 +110,6 @@ nav div ul li {
   text-align: end;
   font-size: 1.3rem;
   color: #fff;
-
 }
 .comod-hero :nth-child(3) p {
   text-align: center;
@@ -112,94 +117,94 @@ nav div ul li {
   padding: 1rem 2rem;
   font-size: 2rem;
   color: #fff;
-
 }
 
 /* - - COSAS QUE HACE - - */
 .things {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 8fr;
-  grid-template-rows: 12rem ;
+  grid-template-rows: 12rem;
   background-color: #fff;
 }
 
-.things_imp{
-    background-color: #004aad;
+.things_imp {
+  background-color: #004aad;
 }
-.things :nth-child(2n){
-    background-color: #fff;
+.things :nth-child(2n) {
+  background-color: #fff;
 }
 
-.things_cont{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.things_cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-  
-.things_cont ul li{
-    font-size: 1.2rem;
-    color: #004aad;
+
+.things_cont ul li {
+  font-size: 1.2rem;
+  color: #004aad;
 }
 
 /* - - TARJETAS - - */
 
-.contacto{
-    height: 12rem;
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.contacto {
+  height: 12rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-.contacto *{
-    margin: 1rem;
+.contacto * {
+  margin: 1rem;
 }
 
-.contacto h3{
-    color: #16D376;
-    font-size: 1.5rem;
+.contacto h3 {
+  color: #16d376;
+  font-size: 1.5rem;
 }
 
 /* - - SOBRE NOSOTROS - - */
-.sobre{
-    display: flex;
-    flex-direction: column;
-    background-color: #fff;
-    padding: 0 0 2rem 0;
+.sobre {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 0 0 2rem 0;
 }
 
-.sobre_card{
-    margin: 1rem;
-    height: 9rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    border: #2E87FF 1px solid;
-    border-radius: 1rem;
-    background-image: -moz-linear-gradient(0deg,#fff,#2E87FF);
-    background-image:-webkit-linear-gradient(0deg,#fff,#2E87FF);
+.sobre_card {
+  margin: 1rem;
+  height: 9rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: #2e87ff 1px solid;
+  border-radius: .5rem;
+  background-color: #001839;
+
+ 
+}
+
+.sobre_par {
+  background-color: #001839;
 
 
 }
 
-.sobre_par{
-    background-image: -moz-linear-gradient(0deg,#2E87FF,#fff);
-    background-image:-webkit-linear-gradient(0deg,#2E87FF,#fff)
+.sobre_card h3 {
+  padding: 1.5rem;
+  color: #fff;
 }
+.sobre_card p {
+  height: 7rem;
+  text-align: start;
+  overflow: scroll;
+  color: #fff;
 
-.sobre_card h3{
-    padding: 1.5rem;
 }
-.sobre_card p{
-    height: 7rem;
-    text-align: start;
-    overflow: scroll;
-}
-
-
 
 /* - - FOOTER - - */
 .footer {
@@ -211,47 +216,44 @@ nav div ul li {
   align-items: center;
 }
 
-.footer div img{
-    height: 5rem;
+.footer div img {
+  height: 5rem;
 }
 
-.footer div a{
-    color: #fff;
-    text-align: start;
-    margin:  1rem .5rem;
+.footer div a {
+  color: #fff;
+  text-align: start;
+  margin: 1rem 0.5rem;
 }
 
 /* ======= 550PX ======= */
 @media only screen and (min-width: 550px) {
-/* - - HERO IMG - - */
-.hero {
-  height: 12rem;
-}
-/* - - COMODIDAD - - */
-.comod-hero div p{
-  margin: 0rem 4rem;
-}
-/* - - COSAS QUE HACE - - */
-.things{
-  grid-template-rows: 15rem ;
-}
-/* - - CONTACTO - - */
-.contacto{
-  height: 15rem;
-}
+  /* - - HERO IMG - - */
+  .hero {
+    height: 12rem;
+  }
+  /* - - COMODIDAD - - */
+  .comod-hero div p {
+    margin: 0rem 4rem;
+  }
+  /* - - COSAS QUE HACE - - */
+  .things {
+    grid-template-rows: 15rem;
+  }
+  /* - - CONTACTO - - */
+  .contacto {
+    height: 15rem;
+  }
 
-/* - - SOBRE NOSOTROS - - */
-.sobre_card h3{
-  padding: 3rem;
-}
-.sobre_card p{
-  overflow:auto;
-  height: auto;
-}
-
-}/* 550 */
-
-
+  /* - - SOBRE NOSOTROS - - */
+  .sobre_card h3 {
+    padding: 3rem;
+  }
+  .sobre_card p {
+    overflow: auto;
+    height: auto;
+  }
+} /* 550 */
 
 /* ======= 700PX ======= */
 @media only screen and (min-width: 700px) {
@@ -260,67 +262,64 @@ nav div ul li {
     height: 12rem;
   }
   /* - - COMODIDAD - - */
-  .comod-hero div p{
+  .comod-hero div p {
     margin: 0rem 4rem;
   }
   /* - - COSAS QUE HACE - - */
-  .things{
-    grid-template-rows: 15rem ;
+  .things {
+    grid-template-rows: 15rem;
     grid-template-columns: 1fr;
     background-color: #000;
     margin: 0;
     padding: 0;
   }
-  .things_imp{
-    display: none;
-    width: 0rem;
-    height: 0;
-
-
-  }
-  .things_par{
+  .things_imp {
     display: none;
     width: 0rem;
     height: 0;
   }
-  .things_cont{
+  .things_par {
+    display: none;
+    width: 0rem;
+    height: 0;
+  }
+  .things_cont {
     height: 20rem;
     margin: 0;
     padding: 0;
   }
 
- .things_cont ul li{
-    color:#fff;
-    margin:  1rem 0;
+  .things_cont ul li {
+    color: #fff;
+    margin: 1rem 0;
     list-style: none;
     font-size: 1.2rem;
   }
-  .things :nth-child(2n){
+  .things :nth-child(2n) {
     background-color: #000;
- }
+  }
   /* - - CONTACTO - - */
-  .contacto{
+  .contacto {
     height: 15rem;
   }
- 
+
   /* - - SOBRE NOSOTROS - - */
-  .sobre{
-    margin:0 4rem ;
+  .sobre {
+    margin: 0 4rem;
   }
-  .sobre_card h3{
+  .sobre_card h3 {
     padding: 3rem;
   }
-  .sobre_card p{
-    overflow:auto;
+  .sobre_card p {
+    overflow: auto;
     height: auto;
   }
   /* - - SUMA - - */
-  .suma{
-    display:grid; 
+  .suma {
+    display: grid;
     grid-template-columns: 3fr 2fr;
-  }  
-}/* 700 */
-
+  }
+} /* 700 */
 
 /* ======= 900PX ======= */
 @media only screen and (min-width: 900px) {
@@ -329,86 +328,103 @@ nav div ul li {
     height: 15rem;
   }
   /* - - COMODIDAD - - */
-  .comod-hero div p{
+  .comod-hero div p {
     margin: 0rem 4rem;
   }
   /* - - COSAS QUE HACE - - */
-  .things{
-    grid-template-rows: 15rem ;
+  .things {
+    grid-template-rows: 15rem;
     grid-template-columns: 1fr;
     background-color: #000;
     margin: 0;
     padding: 0;
   }
-  .things_imp{
-    display: none;
-    width: 0rem;
-    height: 0;
-
-
-  }
-  .things_par{
+  .things_imp {
     display: none;
     width: 0rem;
     height: 0;
   }
-  .things_cont{
+  .things_par {
+    display: none;
+    width: 0rem;
+    height: 0;
+  }
+  .things_cont {
     height: 20rem;
     margin: 0;
     padding: 0;
   }
 
- .things_cont ul li{
-    color:#fff;
-    margin:  1rem 0;
+  .things_cont ul li {
+    color: #fff;
+    margin: 1rem 0;
     list-style: none;
     font-size: 1.2rem;
   }
-  .things :nth-child(2n){
+  .things :nth-child(2n) {
     background-color: #000;
- }
-  /* - - CONTACTO - - */
-  .contacto{
-    height: 15rem;
   }
- 
+  /* - - CONTACTO - - */
+  .contacto {
+    height: 15rem;
+    transition: .5s;
+  }
+  .contacto:hover{
+    background-color: #0d6b3c;
+  }
+
   /* - - SOBRE NOSOTROS - - */
-  .sobre{
-    margin:0 1rem ;
+  .sobre {
+    margin: 0 1rem;
     display: grid;
     grid-template-rows: 16rem 16rem;
     grid-template-columns: 1fr 1fr;
   }
 
-  .sobre_card{
+  .sobre_card {
     height: auto;
+    transition: .5s;
   }
 
-  .sobre_card h3{
+  .sobre_card:hover {
+    background-color: #030303;
+  }
+
+  .sobre_card:hover{
+    border: 1px solid #fff;
+    background-image: #000;
+    border-radius: 0;
+  }
+
+  .sobre_card h3 {
     padding: 3rem;
   }
-  .sobre_card p{
-    overflow:auto;
+  .sobre_card p {
+    overflow: auto;
     height: auto;
   }
 
-  .last_card{
+  .last_card {
     grid-column: 1/3;
-    background-image: -moz-linear-gradient(0deg,#fff,#2E87FF, #fff);
-    background-image:-webkit-linear-gradient(0deg,#fff,#2E87FF, #fff);
-
+    background-color: #001839;
+    transition: .5s;
+  }
+  .last_card:hover {
+    background-color: #030303;
 
   }
 
-  
   /* - - SUMA - - */
-  .suma{
-    display:grid; 
+  .suma {
+    display: grid;
     grid-template-columns: 3fr 2fr;
-  }  
-}/* 900 */
+    transition: .5s;
+  }
+  .suma:hover{
+  background-color: #000;
+  }
 
-
+} /* 900 */
 
 /* ======= 1200PX ======= */
 @media only screen and (min-width: 1100px) {
@@ -417,80 +433,75 @@ nav div ul li {
     height: 18rem;
   }
   /* - - COMODIDAD - - */
-  .comod-hero div p{
+  .comod-hero div p {
     margin: 0rem 4rem;
   }
   /* - - COSAS QUE HACE - - */
-  .things{
-    grid-template-rows: 15rem ;
+  .things {
+    grid-template-rows: 15rem;
     grid-template-columns: 1fr;
     background-color: #000;
     margin: 0;
     padding: 0;
   }
-  .things_imp{
-    display: none;
-    width: 0rem;
-    height: 0;
-
-
-  }
-  .things_par{
+  .things_imp {
     display: none;
     width: 0rem;
     height: 0;
   }
-  .things_cont{
+  .things_par {
+    display: none;
+    width: 0rem;
+    height: 0;
+  }
+  .things_cont {
     height: 20rem;
     margin: 0;
     padding: 0;
   }
 
- .things_cont ul li{
-    color:#fff;
-    margin:  1rem 0;
+  .things_cont ul li {
+    color: #fff;
+    margin: 1rem 0;
     list-style: none;
     font-size: 1.2rem;
   }
-  .things :nth-child(2n){
+  .things :nth-child(2n) {
     background-color: #000;
- }
+  }
   /* - - CONTACTO - - */
-  .contacto{
+  .contacto {
     height: 15rem;
   }
- 
+
   /* - - SOBRE NOSOTROS - - */
-  .sobre{
-    margin:0 0 2rem 0 ;
-    padding:0 5rem ;
+  .sobre {
+    margin: 0 0 2rem 0;
+    padding: 0 5rem;
     display: grid;
     grid-template-rows: 16rem 16rem;
     grid-template-columns: 1fr 1fr;
   }
 
-  .sobre_card{
+  .sobre_card {
     height: auto;
   }
 
-  .sobre_card h3{
+  .sobre_card h3 {
     padding: 3rem;
   }
-  .sobre_card p{
-    overflow:auto;
+  .sobre_card p {
+    overflow: auto;
     height: auto;
   }
 
-  .last_card{
+  .last_card {
     grid-column: 1/3;
-
   }
   /* - - SUMA - - */
-  .suma{
-    display:grid; 
+  .suma {
+    display: grid;
     grid-template-columns: 3fr 2fr;
-    padding:0 5rem ;
-  }  
-
-
-}/* 1200 */
+    padding: 0 5rem;
+  }
+} /* 1200 */
