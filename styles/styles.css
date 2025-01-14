@@ -599,3 +599,26 @@ nav div ul li {
     padding: 0 5rem;
   }
 } /* 1200 */
+
+
+
+/* ANIMACIONES */
+
+.anima{
+  animation: animacion auto linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
+
+}
+@keyframes animacion{
+  0%{
+    opacity: 0%;
+    transform: translateY(100px);
+  }
+  100%{
+    opacity: 100%;
+    transform: translateY(0px);
+
+  }
+
+}
